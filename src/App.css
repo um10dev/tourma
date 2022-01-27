@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+/* --- TourMa --- */
+
+.tourma-login-image {
+  background-image: url("./assets/images/tour-manager.jpg");
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.tourma-logo-font {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+
+.full-100vh {
+  /* min-height: 100vh; */
+}
+
